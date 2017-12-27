@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#include <stdlib.h> 
 #include <time.h>
 
 class SortUp

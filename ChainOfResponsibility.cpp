@@ -1,7 +1,9 @@
+#include <stdlib.h> 
 #include <iostream>
 #include <vector>
 #include <ctime>
 using namespace std;
+
 
 class Base
 {

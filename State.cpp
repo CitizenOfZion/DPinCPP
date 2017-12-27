@@ -86,7 +86,7 @@ int main()
 {
   void(Machine:: *ptrs[])() = 
   {
-    Machine::off, Machine::on
+    &Machine::off, &Machine::on
   };
   Machine fsm;
   int num;
@@ -94,6 +94,6 @@ int main()
   {
     cout << "Enter 0/1: ";
     cin >> num;
-    (fsm. *ptrs[num])();
+    (fsm.* ptrs[num])();
   }
 }
